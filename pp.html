@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  margin-right: 10px;
+}
+
+.custom-file-upload:hover {
+  background-color: #45a049;
+}
+
+.file-label {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #5cb85c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>File input</h2>
+  <div>
+    <input type="text" placeholder="Enter file name" />
+    <label class="custom-file-upload">
+      <input type="file" />
+      Upload File
+    </label>
+  </div>
+  <button type="submit">Submit</button>
+</div>
+
+</body>
+</html>
